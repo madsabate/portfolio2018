@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Steelfish';
+    src: url('../fonts/Steelfish/steelfish_rg-webfont.woff') format('woff'),
+        url('../fonts/Steelfish/steelfish_rg-webfont.woff2') format('woff2')
+}
+body p a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+body ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+body h1 {
+    font-family: 'Steelfish';
+}
+
+#logoContainer {
+    max-width: 35%;
+    max-height: 100%;
+
+}
+
+/* .nav-extended {
+    @media only screen and (max-width: 600px) {max-height:48px;} // SMALL
+    @media only screen and (min-width: 600px) and (max-width: 992px) {max-height:48px;} // MEDIUM
+    @media only screen and (min-width: 993px) {max-height:112px;} // LARGE
+} */
+
+#logoContainer {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 40px;
+}
+
+#logoContainer h1 {
+    font-family: 'Steelfish';
+    color: rgb(239, 32, 34);
+}
+
+.fixed-action-btn{
+    right:50px;/*desired value*/
+    }
+
+i.icon-red{
+    color: rgb(239, 32, 34);
+    background: rgba(255, 255, 255, 0);
+}
+
+.outerStar{
+    font-size: 35px;
+}
+
+#aboutContainer {
+    background:rgb(239, 32, 34);
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 0px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+#aboutContainer h1 {
+    color: white;
+}
+
+#aboutContainer h4{
+    font-family: 'Steelfish';
+    color:  rgb(219, 216, 216);
+}
+
+#aboutContainer p {
+    color: white;
+}
+
+.aboutBody {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#profilePic {
+    max-width: 100%;
+    filter: grayscale(100%);
+}
+
+#profilePic:hover{
+    filter: grayscale(0%);
+}
+
+#technologiesContainer{
+    background: rgb(226, 225, 225);
+    margin-bottom: 0px;
+}
+
+#projectContainer{
+    background: rgb(239, 32,34);
+    margin-bottom: 0px;
+    padding-top: 130px;
+    padding-bottom: 156px;
+}
+
+#projectContainer h1 {
+    color: white;    
+}
+
+#projectContainer p {
+     color: white;  
+}
+
+#projectContainer span{
+    font-family: 'Steelfish';
+    color: white;
+    font-size: 38px;
+}
+
+.projectImg {
+    max-width: 100%;
+    max-height: 100%;
+    filter: grayscale(100%);
+}
+
+.card-content {
+    background: rgb(206, 206, 206);
+}
+
+.card-reveal{
+    background: rgb(206, 206, 206);
+}
+
+.project-icon{
+    color: white;
+    font-size: 48px;
+}
+
+.gitHubIcon {
+    top: -20px;
+}
+
+#contactContainer {
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+
+#contactContainer h1{
+    color: #ef2022;
+}
+
+#contactContainer h4{
+    font-family: 'Steelfish';
+    color:  rgb(219, 216, 216);
+}
+
+.input-field input:focus + label {
+    color: red !important;
+}
+
+.input-field input:focus {
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 red !important;
+}
+
+.input-field textarea:focus + label{
+    color: red !important;
+}
+
+.input-field textarea:focus{
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 red !important;
+}
+
+.projectImg:hover{
+    filter: grayscale(0%);
+}
+
+.icon {
+    width: 24%;
+    padding: .6rem;
+    filter: brightness(0) invert(0.6); 
+}
+
+.icon:hover {
+filter: brightness(1) invert(0);
+}
+
+.hidden{
+    opacity:0;
+}
+.visible{
+    opacity:1;
+}
