@@ -197,23 +197,23 @@
             <form class='col s12' action='https:///formspree.io/meynard.anthony.sabate@gmail.com' method='POST'>
                 <div class='row'>
                     <div class='input-field col s6'>
-                        <input id='your-name' type='text' class='validate'>
+                        <input name='name' id='your-name' type='text' class='validate'>
                         <label for='your-name'>Name</label>
                     </div>
                     <div class='input-field col s6'>
-                        <input id='your-email' type='email' data-error='wrong' data-success='right' class='validate' name='_replyto'>
+                        <input  name='_replyto' id='your-email' type='email' data-error='wrong' data-success='right' class='validate'>
                         <label for='your-email'>Email</label>
                     </div>
                 </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <textarea id='message' class="materialize-textarea"></textarea>
-                            <label for="message">Message</label>
-                        </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea name='message' id='message' class="materialize-textarea"></textarea>
+                        <label for="message">Message</label>
                     </div>
-                    <button class="btn waves-effect waves-light red darken-1" type="submit" value='Send' name="action">Send
-                        <i class="material-icons right">send</i>
-                    </button>
+                </div>
+                <button class="btn waves-effect waves-light red darken-1" type="submit" value='Send' name="action">Send
+                    <i class="material-icons right">send</i>
+                </button>
             </form>
         </div>
     </div>
